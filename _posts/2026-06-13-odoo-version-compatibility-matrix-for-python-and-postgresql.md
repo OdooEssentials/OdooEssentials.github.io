@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Odoo version compatibility matrix for Python and PostgreSQL"
 author: Daniel Reis
 permalink: /odoo-version-compatibility-matrix-for-python-and-postgresql/

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Moving Beyond the Code: The why behind Odoo Essentials"
 author: Daniel Reis
 image: /assets/images/beyond-code-feature.jpg
