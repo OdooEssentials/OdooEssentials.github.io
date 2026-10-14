@@ -9,7 +9,7 @@ logo: /assets/images/logo.png
 locale: en-US
 
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: sunrise
+minimal_mistakes_skin: default
 
 author:
   name: Daniel Reis

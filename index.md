@@ -1,9 +1,8 @@
 ---
 layout: splash
 header:
-  overlay_image: /assets/images/beyond-code-feature.jpg
-  overlay_filter: 0.4
-  caption: 'Photo by [Tim Bernhard](https://unsplash.com/@bernhardvisuals) / Unsplash'
+  overlay_image: /assets/images/hero-gradient.jpg
+  overlay_filter: 0.3
   actions:
     - label: "View the Projects"
       url: /projects/
