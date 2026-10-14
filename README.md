@@ -1,8 +1,8 @@
-# odoo-essentials.github.io
+# OdooEssentials.github.io
 
-Source for [OdooEssentials.com](https://odoo-essentials.github.io) — Odoo
-Development Essentials and Beyond. Jekyll site (Minima theme) hosted on
-GitHub Pages.
+Source for [OdooEssentials.com](https://odooessentials.github.io) — Odoo
+Development Essentials and Beyond. Jekyll site (Minimal Mistakes theme)
+hosted on GitHub Pages.
 
 ## Local preview
 

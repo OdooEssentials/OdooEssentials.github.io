@@ -1,21 +1,29 @@
 title: Odoo Essentials
+name: Odoo Essentials
 description: >-
   Beyond code, towards solutions solving real needs.
 url: "https://odooessentials.github.io"
 baseurl: ""
-author: Daniel Reis
+repository: OdooEssentials/OdooEssentials.github.io
 logo: /assets/images/logo.png
+locale: en-US
 
-remote_theme: jekyll/minima
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: sunrise
 
-minima:
-  skin: auto
-  nav_pages:
-    - projects.md
-    - docs.md
-    - about.md
-  social_links:
-    - { platform: github, user_url: "https://github.com/OdooEssentials" }
+author:
+  name: Daniel Reis
+  avatar: /assets/images/favicon.png
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/dreispt
+
+footer:
+  links:
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: https://github.com/OdooEssentials
 
 plugins:
   - jekyll-remote-theme
@@ -35,19 +43,32 @@ collections:
 defaults:
   - scope:
       path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
       type: projects
     values:
-      layout: page
+      layout: single
   - scope:
       path: ""
       type: docs
     values:
-      layout: page
+      layout: single
 
-giscus:
-  repo: OdooEssentials/odoo-essentials.github.io
-  repo_id: ""
-  category: General
-  category_id: ""
+comments:
+  provider: giscus
+  giscus:
+    repo_id: ""
+    category_name: General
+    category_id: ""
 
+analytics:
+  provider: custom
 cloudflare_analytics_token: ""
