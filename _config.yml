@@ -1,3 +1,53 @@
-remote_theme: pages-themes/primer@v0.6.0
+title: Odoo Essentials
+description: >-
+  Beyond code, towards solutions solving real needs.
+url: "https://odoo-essentials.github.io"
+baseurl: ""
+author: Daniel Reis
+logo: /assets/images/logo.png
+
+remote_theme: jekyll/minima
+
+minima:
+  skin: auto
+  nav_pages:
+    - projects.md
+    - docs.md
+    - about.md
+  social_links:
+    - { platform: github, user_url: "https://github.com/OdooEssentials" }
+
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  docs:
+    output: true
+    permalink: /docs/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: page
+
+giscus:
+  repo: OdooEssentials/odoo-essentials.github.io
+  repo_id: ""
+  category: General
+  category_id: ""
+
+cloudflare_analytics_token: ""
