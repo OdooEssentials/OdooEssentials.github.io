@@ -65,9 +65,9 @@ defaults:
 comments:
   provider: giscus
   giscus:
-    repo_id: ""
+    repo_id: "R_kgDOP350iQ"
     category_name: General
-    category_id: ""
+    category_id: "DIC_kwDOP350ic4DKGJe"
 
 analytics:
   provider: custom
