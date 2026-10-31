@@ -19,3 +19,5 @@ tools behind [OdooIndex](https://odooindex.com).
 {% for post in site.posts limit:5 %}
 - **[{{ post.title }}]({{ post.url | relative_url }})** — {{ post.date | date: "%b %-d, %Y" }}
 {% endfor %}
+
+[Browse all articles →](/blog/)
